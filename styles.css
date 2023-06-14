@@ -3,7 +3,73 @@ html {
 }
 
 .navbar {
-  background-color: #f9af81;
+  background-image: linear-gradient(
+    #dc5f20f0,
+    rgba(255, 255, 0, 0.849),
+    #dc5f20f0
+  );
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+.indexVideo {
+  display: flex;
+  /* background-color: #ed925a; */
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 2px;
+  border-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  background-color: #ed925a;
+  padding-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: ghostwhite;
+}
+
+.heading1 {
+  color: ghostwhite;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.elephantBG {
+  /* border: 1px solid black; */
+  width: 100%;
+  filter: blur(0.7px);
+  border-radius: 10%;
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+.insideImage {
+  color: ghostwhite;
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+.IEButton {
+  color: yellow;
+}
+
+.IEButton:hover {
+  font-size: larger;
+  color: yellow;
 }
 
 .image {
