@@ -3,7 +3,11 @@ html {
 }
 
 .navbar {
-  background-color: #f9af81;
+  background-image: linear-gradient(
+    #dc5f20f0,
+    rgba(255, 255, 0, 0.849),
+    #dc5f20f0
+  );
   filter: drop-shadow(0 0 0.25rem black);
 }
 
