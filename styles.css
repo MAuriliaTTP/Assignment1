@@ -71,3 +71,55 @@ html {
   font-size: larger;
   color: yellow;
 }
+
+.image {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.background {
+  background-color: #ed925a;
+}
+
+.center {
+  text-align: center;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.shrink img {
+  transition: 1s ease;
+}
+
+.shrink img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(0.95);
+  transition: 1s ease;
+}
+
+.i-ella {
+  display: flex;
+  width: 5%;
+  height: 5;
+}
+
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.img2 {
+  border-radius: 2%;
+  border: 2px solid black;
+}
