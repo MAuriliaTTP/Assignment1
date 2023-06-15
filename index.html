@@ -12,9 +12,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-light">
-      <a class="navbar-brand" href="#">Endangered Elephants</a>
+  <body class="container-wrapper home">
+    <nav class="navbar navbar-expand-md navbar-dark textSmallShadow">
+      <a class="navbar-brand textWhite" href="index.html"
+        >Endangered Elephants</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -30,61 +32,78 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link textWhite" href="index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="about.html">About the Cause</a>
+            <a class="nav-link textWhite" href="about.html">About the Cause</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="donate.html">Donate Now!</a>
+            <a class="nav-link textWhite" href="donate.html">Donate Now!</a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <div class="home">
-      <section></section>
+    <div class="">
       <section class="indexVideo">
-        <iframe
-          width="787"
-          height="443"
-          src="https://www.youtube.com/embed/RKMi9pmDN98"
-          title="Baby Elephants love to cuddle"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          style="filter: drop-shadow(0 0 0.25rem black)"
-        ></iframe>
-        <div class="container">
-          <h1>Protecting Endangered Elephants: Securing a Vital Legacy</h1>
-          <h4>
-            The endangered elephant population is currently facing habitat loss,
-            poaching, and human-wildlife conflict. By helping them, we can
-            safeguard these magnificent creatures, protect biodiversity, and
-            preserve the delicate balance of our ecosystems for future
-            generations.
-          </h4>
+        <div class="container textWhite">
+          <h1 class="separationBottom textBigShadow">
+            Protecting Endangered Elephants: Securing a Vital Legacy
+          </h1>
+          <iframe
+            width="576"
+            height="324"
+            src="https://www.youtube.com/embed/RKMi9pmDN98"
+            title="Baby Elephants love to cuddle"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="
+              filter: drop-shadow(0 0 0.25rem black);
+              padding-top: 30px;
+              padding-bottom: 10px;
+            "
+          ></iframe>
+          <h6
+            class="textSmallShadow"
+            style="max-width: 560px; text-align: center; margin: auto"
+          >
+            The above video contains a cutie patootie baby <i>Elephant</i>.
+            Unfortunately, the endangered elephant population is currently
+            facing habitat loss, poaching, and human-wildlife conflict. By
+            helping them, we can safeguard this cutie patootie and the rest of
+            these magnificent creatures, protect biodiversity, and preserve the
+            delicate balance of our ecosystems for future generations.
+          </h6>
         </div>
       </section>
-      <section class="container">
+      <section class="container" style="padding-bottom: 50px">
         <img
           src="https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg?cs=srgb&dl=pexels-pixabay-68550.jpg&fm=jpg"
           alt="Snow"
           class="elephantBG"
         />
         <div class="centered insideImage">
-          <h1>MAJESTY</h1>
+          <h1 class="separationBottom">IMPERIAL</h1>
           <h5 style="padding-top: 100px; padding-bottom: 50px">
             There are many organizations out there that show their compassion
             towards these amazing animals. One such organization is
-            <a href="https://ivoryella.com/pages/our-mission" class="IEButton"
+            <a
+              href="https://ivoryella.com/pages/our-mission"
+              class="IEButton ivoryText"
+              style="filter: drop-shadow(0 0 0.25rem black)"
               >IVORY ELLA</a
             >.
           </h5>
         </div>
       </section>
     </div>
+    <footer>
+      <div class="container textWhite textSmallShadow separationTop">
+        <p>Brought to You By: Madison D, Michael A, & Nikko D</p>
+        <p>© 2023</p>
+      </div>
+    </footer>
   </body>
 </html>
