@@ -12,15 +12,15 @@ Assignment: Choose a cause that your group really cares about and put together a
 Once you have decided on a cause, begin by selecting one teammate to create a Git repo with an index.html file, push it to GitHub, then add the other teammates as collaborators on the repo. Throughout this workshop each teammate should be communicating often and using GitHub effectively. Remember no one should be working off Master so create branches, resolve merge conflicts, and create and close issues.
 
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/89614960/232974560-a58f3202-fa25-432d-b639-98249ee47c92.png" width=60% height=60%>
+<img src="https://github.com/madisondegrezia/Assignment1/assets/89614960/2a392253-0705-43bc-a879-1430c8d36d1f" width=60% height=60%>
 
 The above image shows the home page, where the user can first read about protecting the endangered elephants.
 
-<img src="https://user-images.githubusercontent.com/89614960/232974670-4a3592c8-5ca6-4a2d-b7d8-0dc229ae7ee3.png" width=60% height=60%>
+<img src="https://github.com/madisondegrezia/Assignment1/assets/89614960/29f30aac-baf5-4f2e-9183-35e1834efd71" width=60% height=60%>
 
 The above image shows the about page, where a user can read about the cause.
 
-<img src="https://user-images.githubusercontent.com/89614960/232975044-a7b5b329-d5b9-48f2-a706-dc3c02eb8e29.png" width=60% height=60%>
+<img src="https://github.com/madisondegrezia/Assignment1/assets/89614960/8adb0790-6389-4bb1-8baa-567bb2df8093" width=60% height=60%>
 
 The above image shows the donation page, where the user is prompted to fill out a form with the necessary information if they would like to make a donation.
 
