@@ -1,14 +1,58 @@
+.container-wrapper {
+  max-width: 70vw; /* Adjust the percentage according to your needs */
+  margin: 0 auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container-wrapper {
+    max-width: 90vw; /* Adjust the percentage for smaller screens */
+  }
+}
+
+.separationBottom {
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+}
+
+.separationTop {
+  border-top: solid 1px;
+  padding-top: 20px;
+}
+
+.textWhite {
+  color: white;
+}
+
+.textBigShadow {
+  text-shadow: 1.5px 1.5px 3px #000000;
+}
+
+.textSmallShadow {
+  text-shadow: 1.5px 1.5px 4px #000000;
+}
+
 html {
   background-color: #ed925a;
 }
 
 .navbar {
-  background-image: linear-gradient(
-    #dc5f20f0,
-    rgba(255, 255, 0, 0.849),
-    #dc5f20f0
+  background: rgb(196, 168, 51);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 168, 51, 1) 16%,
+    rgba(255, 184, 0, 0.9612219887955182) 68%
   );
   filter: drop-shadow(0 0 0.25rem black);
+}
+
+.ivoryText {
+  /* Initial font size */
+  transition: font-size 0.3s ease; /* Transition property with duration and timing function */
+}
+
+.ivoryText:hover {
+  font-size: 1.03em; /* Shrunk font size on hover */
 }
 
 .indexVideo {
@@ -26,13 +70,13 @@ html {
 
 .home {
   background-color: #ed925a;
-  padding-bottom: 100px;
+  /* padding-bottom: 50px; */
 }
 
 .container {
   position: relative;
   text-align: center;
-  color: ghostwhite;
+  /* color: ghostwhite; */
 }
 
 .heading1 {
@@ -68,7 +112,6 @@ html {
 }
 
 .IEButton:hover {
-  font-size: larger;
   color: yellow;
 }
 
